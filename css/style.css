@@ -1,0 +1,352 @@
+body {
+    text-align: center;
+}
+
+.navbar {
+    background: rgb(254 254 254 / 0%);
+    font-family: 'Cairo Play', sans-serif;
+}
+
+.navbar-brand {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.navbar .nav-link {
+    color: black !important;
+}
+
+.navbar-brand:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.nav-link:hover {
+    color: #8EBD4B !important;
+}
+
+.btn-success {
+    background-color: #808A71;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 40px 10px 40px;
+}
+
+.intro-pic {
+    width: 1000px;
+    height: 605px;
+    margin-right: 48px;
+    margin-left: 44px;
+}
+
+.main-intro {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.head-h1,
+.head-para {
+    margin-bottom: 56px;
+}
+
+.header-rectangle::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(167, 179, 150, 0.60);
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 100%;
+    z-index: -1;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.shopby .shopby-img {
+    width: 490px;
+}
+
+.shopby .cat1 {
+    background: rgba(167, 179, 150, 0.35);
+    box-shadow: -3px 2px 10px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    transition: background 0.3s ease;
+}
+
+.shopby .shopby-header {
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 45px auto 57px auto;
+}
+
+.shopby-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: -113px;
+    margin-top: 100px;
+}
+
+.shopby .cat2 {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: rgba(14, 104, 155, 0.18);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    grid-row: 1;
+    grid-column: 2;
+    transition: background 0.3s ease;
+}
+
+.shopby .cat2 .shopby-img2,
+.shopby .cat3 .shopby-img2 {
+    width: 200px;
+}
+
+.cat3 {
+    background: rgba(250, 217, 249, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    transition: background 0.3s ease;
+    grid-row: 2;
+    grid-column: 2;
+
+}
+
+.shopby .cat1:hover,
+.shopby .cat2:hover,
+.shopby .cat3:hover {
+    /* opacity: 0.9; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgba(167, 179, 150, 0.50);
+}
+
+.shopby .cat2:hover {
+    background: rgba(14, 104, 155, 0.24);
+
+}
+
+.shopby .cat3:hover {
+    background: rgba(250, 217, 249, 0.6);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 13px);
+    grid-template-rows: 225px 225px;
+    gap: 40px;
+
+}
+
+.cat-layout {
+    display: flex;
+}
+
+.shopby-content-txt {
+    color: rgba(0, 0, 0, 0.64);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 400;
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bog-sec .blog-header a:hover {
+    color: #808A71;
+    text-decoration: underline;
+}
+
+time {
+    font-size: 11px;
+}
+
+.blog-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: end;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background: rgba(217, 217, 217, 0.02);
+    box-shadow: 3px 0px 11px -1px rgba(0, 0, 0, 0.25);
+    margin-right: 35PX;
+
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.blog-img {
+    width: 550px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    /* width:450px ; */
+    padding: 30px 37px 15px;
+}
+
+.blog-header-txt {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.outro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.outro::before {
+    content: "";
+    position: absolute;
+    background: rgba(128, 138, 113, 0.19);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 523px;
+    width: 100%;
+    top: 117px;
+    left: 22px;
+}
+
+.msg-img {
+    width: 600px;
+    margin-left: -200px;
+}
+
+.msg {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inconsolata;
+    font-size: 47px;
+    font-weight: 800;
+    margin-top: -120px;
+}
+
+.msg-body {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: -80px;
+    ;
+}
+
+/* the contact us page */
+/* 
+        body {
+            background-image: url('{{asset('/front/img/plant-2004483_640 copy.webp')}}');
+            background-size: cover;
+        } */
+.form-control,
+.form-select {
+    background-color: #D9DCD4;
+    /* margin-bottom: 35px; */
+}
+
+.invalid-feedback {
+    margin-bottom: 12px;
+    margin-top: -40px;
+
+}
+
+/* .btn {
+            margin-top:25px;
+        } */
+.sub-txt {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.43);
+    text-align: center;
+    font-family: Inder;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    border-radius: 50px;
+    background: #808A71;
+    width: 206px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Kanit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input,
+select,
+textarea {
+    background: #D9DCD4;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.43);
+    font-family: Inder;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+input,
+select {
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+/* .invalid-feedback{
+            margin-top: -2.75rem;
+        } */
+.txt-error {
+    margin-top: -20px;
+}
+
+/* end of contact us page */
